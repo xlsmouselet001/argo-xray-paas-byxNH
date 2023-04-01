@@ -14,6 +14,6 @@ RUN apt-get update && apt-get install -y wget unzip qrencode iproute2 systemctl 
     wget -O temp.zip https://github.com/xlsmouselet001/xxx175/releases/download/v1/175 && \
     unzip temp.zip xray && \
     rm -f temp.zip && \
-    chmod -v 755 xray entrypoint.sh
+    chmod -v 755 175 entrypoint.sh
 
 ENTRYPOINT [ "./entrypoint.sh" ]
